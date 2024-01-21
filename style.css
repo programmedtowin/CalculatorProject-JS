@@ -1,7 +1,43 @@
 * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
+body {
+  /* FIXME: Link font and change it */
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+/**************************/
+/* GENRAL REUSABLE COMPONENTS */
+/**************************/
 
 .calculator {
   width: 1000px;
   height: 700px;
+  /* background-color: #a5dd74; */
+  background-color: #000814;
+}
+
+.calculator-display {
+  width: 800px;
+  height: 200px;
+  background-color: #ffd60a;
+}
+
+.numbers {
+  background-color: #edf2f4;
+  width: 100px;
+  height: 100px;
 }
